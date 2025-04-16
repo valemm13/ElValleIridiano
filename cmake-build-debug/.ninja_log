@@ -1,0 +1,21 @@
+# ninja log v6
+10	325	7664348176051515	CMakeFiles/proyectofinal.dir/main.cpp.obj.ddi	bf9d6b130dbdfa23
+57	170	7664345586345413	CMakeFiles/proyectofinal.dir/Nodo.cpp.obj.ddi	b617b5a5369bbf85
+325	382	7664348179209577	CMakeFiles/proyectofinal.dir/CXX.dd	8f67f591b897aff1
+325	382	7664348179209577	C:/Users/hanna/OneDrive/Escritorio/proyectofinal/cmake-build-debug/CMakeFiles/proyectofinal.dir/CXXModules.json	8f67f591b897aff1
+325	382	7664348179209577	CMakeFiles/proyectofinal.dir/main.cpp.obj.modmap	8f67f591b897aff1
+9	345	7664346613798690	CMakeFiles/proyectofinal.dir/Entorno.cpp.obj.ddi	13d5848f6a7dac38
+384	1326	7664348179802994	CMakeFiles/proyectofinal.dir/main.cpp.obj	8a0dd4de4a50082
+1328	1502	7664348189233647	proyectofinal.exe	b9c221a29779b4de
+325	382	7664348179209577	CMakeFiles/proyectofinal.dir/Entorno.cpp.obj.modmap	8f67f591b897aff1
+325	382	7664348179209577	CMakeFiles/proyectofinal.dir/Nodo.cpp.obj.modmap	8f67f591b897aff1
+412	1994	7664346617830128	CMakeFiles/proyectofinal.dir/Entorno.cpp.obj	7ad9a2448aac05a0
+456	690	7664345590339254	CMakeFiles/proyectofinal.dir/Nodo.cpp.obj	664132e8021d86f4
+12	313	7664349596219649	CMakeFiles/proyectofinal.dir/main.cpp.obj.ddi	bf9d6b130dbdfa23
+313	364	7664349599231645	CMakeFiles/proyectofinal.dir/CXX.dd	8f67f591b897aff1
+313	364	7664349599231645	C:/Users/hanna/OneDrive/Escritorio/proyectofinal/cmake-build-debug/CMakeFiles/proyectofinal.dir/CXXModules.json	8f67f591b897aff1
+313	364	7664349599231645	CMakeFiles/proyectofinal.dir/main.cpp.obj.modmap	8f67f591b897aff1
+313	364	7664349599231645	CMakeFiles/proyectofinal.dir/Entorno.cpp.obj.modmap	8f67f591b897aff1
+313	364	7664349599231645	CMakeFiles/proyectofinal.dir/Nodo.cpp.obj.modmap	8f67f591b897aff1
+366	1324	7664349599757821	CMakeFiles/proyectofinal.dir/main.cpp.obj	8a0dd4de4a50082
+1326	1579	7664349609360652	proyectofinal.exe	b9c221a29779b4de
