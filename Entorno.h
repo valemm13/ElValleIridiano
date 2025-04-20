@@ -1,7 +1,3 @@
-//
-// Created by hanna on 4/14/2025.
-//
-
 #ifndef ENTORNO_H
 #define ENTORNO_H
 #include "Nodo.h"
@@ -20,12 +16,13 @@ private:
 public:
     Entorno(int tipo, int x, int y); //crear objeto entorno (constructor)
 
-
     void imprimirMapa() const;
-
 
     void mostrar();
 
+    void agregarCriaturaNodo(int x, int y, const Criatura& criatura);
+
+    Nodo& getNodo(int x, int y);
 };
 
 #endif //ENTORNO_H

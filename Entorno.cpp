@@ -1,8 +1,6 @@
-//
-// Created by hanna on 4/14/2025.
-//
 #include <iostream>
 #include "Entorno.h"
+using namespace std;
 Entorno::Entorno(int tipo, int x, int y): tipoEntorno(tipo), sizeX(x), sizeY(y) {
     //creando mapa
     for (int x = 1; x <= sizeX; ++x) {
@@ -73,17 +71,33 @@ void Entorno::imprimirMapa() const {
         for (int x = 1; x <= sizeX; ++x) {
             auto it = nodos.find({x, y});
             if (it != nodos.end()) {
-                if (it->second.getActivo()) {
-                    std::cout << " # ";
+                const Nodo& nodo = it->second;
+                if (nodo.getActivo()) {
+                    if (!nodo.getCriaturas().empty()) {
+                        cout << " C ";
+                    } else {
+                        cout << " # ";
+                    }
                 } else {
-                    std::cout << " 0 ";
+                    cout << " 0 ";
                 }
             } else {
-                std::cout << "? ";  // Por si falta el nodo en el mapa
+                cout << " ? ";
             }
         }
-        std::cout << '\n';
+        cout << '\n';
     }
 }
 
+void Entorno::agregarCriaturaNodo(int x, int y, const Criatura &criatura) {
+    auto it = nodos.find({x, y});
+    if (it != nodos.end()) {  // Verifica si el nodo existe
+        it->second.agregarCriatura(x,y);  // Agrega la criatura al nodo
+    } else {
+        std::cout << "Nodo no encontrado en las coordenadas (" << x << ", " << y << ").\n";
+    }
+}
 
+Nodo & Entorno::getNodo(int x, int y) {
+    return nodos[{x, y}];
+}

@@ -1,28 +1,36 @@
-//
-// Created by hanna on 4/14/2025.
-//
-
 #ifndef NODO_H
 #define NODO_H
+#include <iostream>
 
-
+#include "Criatura.h"
+#include <vector>
+using namespace std;
 
 class Nodo {
 private:
     bool activo=false;
     int x;
     int y;
+    vector <Criatura> criaturas;
 
 public:
     Nodo();
+
+    Nodo(int x, int y);
 
     int getX() const;
 
     int getY() const;
 
     void setActivo(bool estado);
+
     bool getActivo() const;
 
+    void agregarCriatura(int x, int y);
+
+    void mostrarCriatura();
+
+    const vector <Criatura>& getCriaturas() const;
 };
 
 

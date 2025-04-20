@@ -7,4 +7,6 @@ add_executable(proyectofinal main.cpp
         Entorno.cpp
         Entorno.h
         Nodo.cpp
-        Nodo.h)
+        Nodo.h
+        Criatura.cpp
+        Criatura.h)

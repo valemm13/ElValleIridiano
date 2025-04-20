@@ -1,7 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/proyectofinal.dir/main.cpp.obj: dyndep
-
-build CMakeFiles/proyectofinal.dir/Entorno.cpp.obj: dyndep
-
-build CMakeFiles/proyectofinal.dir/Nodo.cpp.obj: dyndep
-

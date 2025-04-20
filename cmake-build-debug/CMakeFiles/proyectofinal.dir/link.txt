@@ -1,0 +1,3 @@
+"C:\Users\valer\Downloads\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\proyectofinal.dir/objects.a
+C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\proyectofinal.dir/objects.a @CMakeFiles\proyectofinal.dir\objects1.rsp
+C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\proyectofinal.dir/objects.a -Wl,--no-whole-archive -o proyectofinal.exe -Wl,--out-implib,libproyectofinal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\proyectofinal.dir\linkLibs.rsp
