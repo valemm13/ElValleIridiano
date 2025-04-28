@@ -124,12 +124,57 @@ CMakeFiles/proyectofinal.dir/Criatura.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proyectofinal.dir/Criatura.cpp.s"
 	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Criatura.cpp -o CMakeFiles\proyectofinal.dir\Criatura.cpp.s
 
+CMakeFiles/proyectofinal.dir/Raiz.cpp.obj: CMakeFiles/proyectofinal.dir/flags.make
+CMakeFiles/proyectofinal.dir/Raiz.cpp.obj: C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Raiz.cpp
+CMakeFiles/proyectofinal.dir/Raiz.cpp.obj: CMakeFiles/proyectofinal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proyectofinal.dir/Raiz.cpp.obj"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyectofinal.dir/Raiz.cpp.obj -MF CMakeFiles\proyectofinal.dir\Raiz.cpp.obj.d -o CMakeFiles\proyectofinal.dir\Raiz.cpp.obj -c C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Raiz.cpp
+
+CMakeFiles/proyectofinal.dir/Raiz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proyectofinal.dir/Raiz.cpp.i"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Raiz.cpp > CMakeFiles\proyectofinal.dir\Raiz.cpp.i
+
+CMakeFiles/proyectofinal.dir/Raiz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proyectofinal.dir/Raiz.cpp.s"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Raiz.cpp -o CMakeFiles\proyectofinal.dir\Raiz.cpp.s
+
+CMakeFiles/proyectofinal.dir/Chispa.cpp.obj: CMakeFiles/proyectofinal.dir/flags.make
+CMakeFiles/proyectofinal.dir/Chispa.cpp.obj: C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Chispa.cpp
+CMakeFiles/proyectofinal.dir/Chispa.cpp.obj: CMakeFiles/proyectofinal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/proyectofinal.dir/Chispa.cpp.obj"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyectofinal.dir/Chispa.cpp.obj -MF CMakeFiles\proyectofinal.dir\Chispa.cpp.obj.d -o CMakeFiles\proyectofinal.dir\Chispa.cpp.obj -c C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Chispa.cpp
+
+CMakeFiles/proyectofinal.dir/Chispa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proyectofinal.dir/Chispa.cpp.i"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Chispa.cpp > CMakeFiles\proyectofinal.dir\Chispa.cpp.i
+
+CMakeFiles/proyectofinal.dir/Chispa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proyectofinal.dir/Chispa.cpp.s"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Chispa.cpp -o CMakeFiles\proyectofinal.dir\Chispa.cpp.s
+
+CMakeFiles/proyectofinal.dir/Cambio.cpp.obj: CMakeFiles/proyectofinal.dir/flags.make
+CMakeFiles/proyectofinal.dir/Cambio.cpp.obj: C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Cambio.cpp
+CMakeFiles/proyectofinal.dir/Cambio.cpp.obj: CMakeFiles/proyectofinal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proyectofinal.dir/Cambio.cpp.obj"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proyectofinal.dir/Cambio.cpp.obj -MF CMakeFiles\proyectofinal.dir\Cambio.cpp.obj.d -o CMakeFiles\proyectofinal.dir\Cambio.cpp.obj -c C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Cambio.cpp
+
+CMakeFiles/proyectofinal.dir/Cambio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/proyectofinal.dir/Cambio.cpp.i"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Cambio.cpp > CMakeFiles\proyectofinal.dir\Cambio.cpp.i
+
+CMakeFiles/proyectofinal.dir/Cambio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/proyectofinal.dir/Cambio.cpp.s"
+	C:\Users\valer\DOWNLO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Cambio.cpp -o CMakeFiles\proyectofinal.dir\Cambio.cpp.s
+
 # Object files for target proyectofinal
 proyectofinal_OBJECTS = \
 "CMakeFiles/proyectofinal.dir/main.cpp.obj" \
 "CMakeFiles/proyectofinal.dir/Entorno.cpp.obj" \
 "CMakeFiles/proyectofinal.dir/Nodo.cpp.obj" \
-"CMakeFiles/proyectofinal.dir/Criatura.cpp.obj"
+"CMakeFiles/proyectofinal.dir/Criatura.cpp.obj" \
+"CMakeFiles/proyectofinal.dir/Raiz.cpp.obj" \
+"CMakeFiles/proyectofinal.dir/Chispa.cpp.obj" \
+"CMakeFiles/proyectofinal.dir/Cambio.cpp.obj"
 
 # External object files for target proyectofinal
 proyectofinal_EXTERNAL_OBJECTS =
@@ -138,11 +183,14 @@ proyectofinal.exe: CMakeFiles/proyectofinal.dir/main.cpp.obj
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/Entorno.cpp.obj
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/Nodo.cpp.obj
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/Criatura.cpp.obj
+proyectofinal.exe: CMakeFiles/proyectofinal.dir/Raiz.cpp.obj
+proyectofinal.exe: CMakeFiles/proyectofinal.dir/Chispa.cpp.obj
+proyectofinal.exe: CMakeFiles/proyectofinal.dir/Cambio.cpp.obj
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/build.make
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/linkLibs.rsp
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/objects1.rsp
 proyectofinal.exe: CMakeFiles/proyectofinal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable proyectofinal.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable proyectofinal.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\proyectofinal.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,21 +1,24 @@
 #include <iostream>
 #include <string>
 #include "Entorno.h"
+#include "Nodo.h"
+
 
 int main() {
-    Entorno mapaPrueba= Entorno(1,8,8);
+    Entorno mapaPrueba= Entorno(1,8);
 
-    Criatura c1(3,3);
-    Criatura c2(4,4);
-    Criatura c3(5,5);
-    Criatura c4(6,6);
+    Criatura c1(3,3,1,1,1,1);
+    Criatura c2(3,3,7,1,1,1);
+    Criatura c3(5,5,1,1,1,1);
+    Criatura c4(6,6,1,1,1,1);
 
-    mapaPrueba.agregarCriaturaNodo(3,3,c1);
-    mapaPrueba.agregarCriaturaNodo(4,4,c2);
-    mapaPrueba.agregarCriaturaNodo(5,5,c3);
-    mapaPrueba.agregarCriaturaNodo(6,5,c4);
+    mapaPrueba.agregarCriaturaNodo(c1);
+    mapaPrueba.agregarCriaturaNodo(c2);
+    mapaPrueba.agregarCriaturaNodo(c3);
+    mapaPrueba.agregarCriaturaNodo(c4);
 
     mapaPrueba.imprimirMapa();
+    mapaPrueba.mostrarNodoEntorno(3,3);
 
     return 0;
 }

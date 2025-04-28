@@ -1,5 +1,6 @@
-CMakeFiles/proyectofinal.dir/Criatura.cpp.obj: \
- C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Criatura.cpp \
+CMakeFiles/proyectofinal.dir/Raiz.cpp.obj: \
+ C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Raiz.cpp \
+ C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Raiz.h \
  C:\Users\valer\Desktop\CLionProjects\ElValleIridiano\Criatura.h \
  C:/Users/valer/Downloads/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Users/valer/Downloads/CLion\ 2024.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \

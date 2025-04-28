@@ -9,20 +9,25 @@ using namespace std;
 class Entorno {
 private:
     int tipoEntorno;
-    int sizeX;
-    int sizeY;
+    int size;
     map<pair<int, int>, Nodo> nodos;
 
 public:
-    Entorno(int tipo, int x, int y); //crear objeto entorno (constructor)
+    Entorno(int tipo, int s); //crear objeto entorno (constructor)
 
-    void imprimirMapa() const;
+    void imprimirMapa() ;
 
-    void mostrar();
+    void mostrarNodoEntorno(int x, int y) {
+        for (auto& nodo : nodos) {
+            if (nodo.first.first == x && nodo.first.second == y) {
+                nodo.second.mostrarNodo();
+            }
+        }
 
-    void agregarCriaturaNodo(int x, int y, const Criatura& criatura);
+    }
 
-    Nodo& getNodo(int x, int y);
+    void agregarCriaturaNodo(const Criatura& criatura);
+
 };
 
 #endif //ENTORNO_H

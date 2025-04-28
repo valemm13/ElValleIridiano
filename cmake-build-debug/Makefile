@@ -128,6 +128,54 @@ proyectofinal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/build
 .PHONY : proyectofinal/fast
 
+Cambio.obj: Cambio.cpp.obj
+.PHONY : Cambio.obj
+
+# target to build an object file
+Cambio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Cambio.cpp.obj
+.PHONY : Cambio.cpp.obj
+
+Cambio.i: Cambio.cpp.i
+.PHONY : Cambio.i
+
+# target to preprocess a source file
+Cambio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Cambio.cpp.i
+.PHONY : Cambio.cpp.i
+
+Cambio.s: Cambio.cpp.s
+.PHONY : Cambio.s
+
+# target to generate assembly for a file
+Cambio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Cambio.cpp.s
+.PHONY : Cambio.cpp.s
+
+Chispa.obj: Chispa.cpp.obj
+.PHONY : Chispa.obj
+
+# target to build an object file
+Chispa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Chispa.cpp.obj
+.PHONY : Chispa.cpp.obj
+
+Chispa.i: Chispa.cpp.i
+.PHONY : Chispa.i
+
+# target to preprocess a source file
+Chispa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Chispa.cpp.i
+.PHONY : Chispa.cpp.i
+
+Chispa.s: Chispa.cpp.s
+.PHONY : Chispa.s
+
+# target to generate assembly for a file
+Chispa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Chispa.cpp.s
+.PHONY : Chispa.cpp.s
+
 Criatura.obj: Criatura.cpp.obj
 .PHONY : Criatura.obj
 
@@ -200,6 +248,30 @@ Nodo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
+Raiz.obj: Raiz.cpp.obj
+.PHONY : Raiz.obj
+
+# target to build an object file
+Raiz.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Raiz.cpp.obj
+.PHONY : Raiz.cpp.obj
+
+Raiz.i: Raiz.cpp.i
+.PHONY : Raiz.i
+
+# target to preprocess a source file
+Raiz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Raiz.cpp.i
+.PHONY : Raiz.cpp.i
+
+Raiz.s: Raiz.cpp.s
+.PHONY : Raiz.s
+
+# target to generate assembly for a file
+Raiz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\proyectofinal.dir\build.make CMakeFiles/proyectofinal.dir/Raiz.cpp.s
+.PHONY : Raiz.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -233,6 +305,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... proyectofinal
+	@echo ... Cambio.obj
+	@echo ... Cambio.i
+	@echo ... Cambio.s
+	@echo ... Chispa.obj
+	@echo ... Chispa.i
+	@echo ... Chispa.s
 	@echo ... Criatura.obj
 	@echo ... Criatura.i
 	@echo ... Criatura.s
@@ -242,6 +320,9 @@ help:
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s
+	@echo ... Raiz.obj
+	@echo ... Raiz.i
+	@echo ... Raiz.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

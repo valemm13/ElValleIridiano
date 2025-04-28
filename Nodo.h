@@ -1,7 +1,6 @@
 #ifndef NODO_H
 #define NODO_H
 #include <iostream>
-
 #include "Criatura.h"
 #include <vector>
 using namespace std;
@@ -26,11 +25,12 @@ public:
 
     bool getActivo() const;
 
-    void agregarCriatura(int x, int y);
+    void agregarCriatura(Criatura criatura);
 
-    void mostrarCriatura();
+    void mostrarNodo();
 
-    const vector <Criatura>& getCriaturas() const;
+
+    vector<Criatura>&  getCriaturas() ;
 };
 
 

@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Cambio.cpp" "CMakeFiles/proyectofinal.dir/Cambio.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Cambio.cpp.obj.d"
+  "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Chispa.cpp" "CMakeFiles/proyectofinal.dir/Chispa.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Chispa.cpp.obj.d"
   "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Criatura.cpp" "CMakeFiles/proyectofinal.dir/Criatura.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Criatura.cpp.obj.d"
   "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Entorno.cpp" "CMakeFiles/proyectofinal.dir/Entorno.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Entorno.cpp.obj.d"
   "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Nodo.cpp" "CMakeFiles/proyectofinal.dir/Nodo.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Nodo.cpp.obj.d"
+  "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/Raiz.cpp" "CMakeFiles/proyectofinal.dir/Raiz.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/Raiz.cpp.obj.d"
   "C:/Users/valer/Desktop/CLionProjects/ElValleIridiano/main.cpp" "CMakeFiles/proyectofinal.dir/main.cpp.obj" "gcc" "CMakeFiles/proyectofinal.dir/main.cpp.obj.d"
   )
 

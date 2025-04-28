@@ -1,4 +1,5 @@
 #include "Nodo.h"
+#include "Criatura.h"
 
 Nodo::Nodo()=default;
 
@@ -11,6 +12,13 @@ int Nodo::getX() const {
 int Nodo::getY() const {
     return y;
 }
+
+void Nodo :: mostrarNodo()  {
+    for (const auto& criatura : criaturas) {
+        criatura.mostrarCriatura();
+    }
+}
+
 void Nodo::setActivo(bool estado) {
     activo=estado;
 }
@@ -19,22 +27,17 @@ bool Nodo::getActivo() const {
     return activo;
 }
 
-void Nodo::agregarCriatura(int x, int y) {
+void Nodo::agregarCriatura(Criatura criatura) {
     if (activo == true) {
-        criaturas.push_back(Criatura(x,y));
+        criaturas.push_back(criatura);
     }
     else {
         cout << "El nodo no esta activo" << endl;
     }
 }
 
-void Nodo::mostrarCriatura() {
-    for (const auto& criatura : criaturas) {
-        cout << "(" << criatura.getUbicacionX() << "," << criatura.getUbicacionY() << ")" << endl;
-    }
-}
 
-const vector<Criatura> & Nodo::getCriaturas() const {
+vector<Criatura>& Nodo::getCriaturas()  {
     return criaturas;
 }
 

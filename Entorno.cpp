@@ -1,14 +1,13 @@
 #include <iostream>
 #include "Entorno.h"
 using namespace std;
-Entorno::Entorno(int tipo, int x, int y): tipoEntorno(tipo), sizeX(x), sizeY(y) {
+Entorno::Entorno(int tipo, int s): tipoEntorno(tipo), size(s) {
     //creando mapa
-    for (int x = 1; x <= sizeX; ++x) {
-        for (int y = 1; y <= sizeY; ++y) {
+    for (int x = 1; x <= size; ++x) {
+        for (int y = 1; y <= size; ++y) {
             nodos[{x, y}] = Nodo();
         }
     }
-
 
     //dependiendo del tipo de entorno que elija el usuario, crear la matriz base, configurando los nodos
 
@@ -17,8 +16,8 @@ Entorno::Entorno(int tipo, int x, int y): tipoEntorno(tipo), sizeX(x), sizeY(y) 
         int coordenadaY= nodo.first.second;
         Nodo& nodoMap= nodo.second;
 
-        float porcX = (float)coordenadaX / sizeX;
-        float porcY = (float)coordenadaY / sizeY;
+        float porcX = (float)coordenadaX / size;
+        float porcY = (float)coordenadaY / size;
 
         if (tipoEntorno==1) {
             // Altos Cálidos
@@ -66,15 +65,15 @@ Entorno::Entorno(int tipo, int x, int y): tipoEntorno(tipo), sizeX(x), sizeY(y) 
     }
 }
 
-void Entorno::imprimirMapa() const {
-    for (int y = 1; y <= sizeY; ++y) {
-        for (int x = 1; x <= sizeX; ++x) {
-            auto it = nodos.find({x, y});
-            if (it != nodos.end()) {
-                const Nodo& nodo = it->second;
+void Entorno::imprimirMapa()  {
+    for (int y = 1; y <= size; ++y) {
+        for (int x = 1; x <= size; ++x) {
+            auto temp = nodos.find({x, y});
+            if (temp != nodos.end()) {
+                 Nodo& nodo = temp->second;
                 if (nodo.getActivo()) {
                     if (!nodo.getCriaturas().empty()) {
-                        cout << " C ";
+                        cout << " " << nodo.getCriaturas().size() << " ";
                     } else {
                         cout << " # ";
                     }
@@ -89,15 +88,12 @@ void Entorno::imprimirMapa() const {
     }
 }
 
-void Entorno::agregarCriaturaNodo(int x, int y, const Criatura &criatura) {
-    auto it = nodos.find({x, y});
-    if (it != nodos.end()) {  // Verifica si el nodo existe
-        it->second.agregarCriatura(x,y);  // Agrega la criatura al nodo
+void Entorno::agregarCriaturaNodo(const Criatura &criatura) {
+    auto temp = nodos.find({criatura.getUbicacionX(), criatura.getUbicacionY()});
+    if (temp != nodos.end()) {  // Verifica si el nodo existe
+        temp->second.agregarCriatura(criatura);  // Agrega la criatura al nodo
     } else {
-        std::cout << "Nodo no encontrado en las coordenadas (" << x << ", " << y << ").\n";
+        cout << "Nodo no encontrado en las coordenadas (" << criatura.getUbicacionX() << ", " << criatura.getUbicacionY() << ").\n";
     }
 }
 
-Nodo & Entorno::getNodo(int x, int y) {
-    return nodos[{x, y}];
-}

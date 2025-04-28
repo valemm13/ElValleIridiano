@@ -9,4 +9,10 @@ add_executable(proyectofinal main.cpp
         Nodo.cpp
         Nodo.h
         Criatura.cpp
-        Criatura.h)
+        Criatura.h
+        Raiz.cpp
+        Raiz.h
+        Chispa.cpp
+        Chispa.h
+        Cambio.cpp
+        Cambio.h)
